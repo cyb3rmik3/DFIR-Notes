@@ -1,4 +1,16 @@
-# Memory Forensics Notes
+# Memory Dump Procedures
+
+- https://docs.microsoft.com/en-us/sysinternals/downloads/livekd
+
+# Volatility cheat sheet
+
+| Command | Description |
+| --- | --- |
+| python vol.py -f filename.filetype imageinfo | imageinfo will help you to get more information about the memory dump |
+| python vol.py -f filename.filetype --profile=WinXPSP3x86 | specify to volatility the OS profile (--profile=WinXPSP2x86) |
+| python vol.py -f filename.filetype --profile=WinXPSP3x86 pslist | what were the running processes using the pslist plugin |
+
+# Memory Forensics References
 
 - https://newtonpaul.com/malware-analysis-memory-forensics-with-volatility-3/
 - https://www.secjuice.com/malware-analysis-memory-forensics/
