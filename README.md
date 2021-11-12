@@ -7,16 +7,18 @@
 | Command | Description |
 | --- | --- |
 | python vol.py -f mem.dmp imageinfo | imageinfo will help you to get more information about the memory dump |
-| python vol.py -f mem.dmp --profile=WinXPSP3x86 | specify to volatility the OS profile (--profile=WinXPSP2x86) |
-| python vol.py -f mem.dmp --profile=WinXPSP3x86 pslist | what were the running processes using the pslist plugin |
-| python vol.py -f mem.dmp --profile=WinXPSP3x86 pstree | display the processes and their parent processes |
-| python vol.py -f mem.dmp --profile=WinXPSP3x86 psxview | processes that are trying to hide themselves while running on the computer |
-| python vol.py -f mem.dmp --profile=WinXPSP3x86 connscan | scanner for TCP connections |
-| python vol.py -f mem.dmp --profile=WinXPSP3x86  |  |
+| python vol.py -f mem.dmp --profile=prof | specify to volatility the OS profile (--profile=WinXPSP2x86) |
+| python vol.py -f mem.dmp --profile=prof pslist | what were the running processes using the pslist plugin |
+| python vol.py -f mem.dmp --profile=prof pstree | display the processes and their parent processes |
+| python vol.py -f mem.dmp --profile=prof psxview | processes that are trying to hide themselves while running on the computer |
+| python vol.py -f mem.dmp --profile=prof connscan | scanner for TCP connections |
+| python vol.py -f mem.dmp --profile=prof sockets | will print a list of open sockets |
+| python vol.py -f mem.dmp --profile=prof netscan | will scan a Vista (or later) image for connections and sockets |
 
 #### Notes
 
 - mem.dmp = filename.filetype
+- prof = profile name as defined by imageinfo
 
 # Memory Forensics References
 
