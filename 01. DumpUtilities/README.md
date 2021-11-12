@@ -3,10 +3,8 @@
 ### DumpIt
 
 ```` 
-cd [DumpIt folder]
-````
-```` 
-cd DumpIt.exe
+\cd [DumpIt folder] 
+\DumpIt.exe
 ````
 
 - MoonSols Windows Memory "DumpIt" v1.3.2.20110401 -  
