@@ -12,6 +12,10 @@
 
 - https://github.com/fullylegit/ja3
 
+###### SSL Certificate Check
+
+- https://dnschecker.org/ssl-certificate-examination.php
+
 ###### References
 
 - https://blog.hqcodeshop.fi/archives/473-JA3-TLS-fingerprinting-with-Wireshark.html
