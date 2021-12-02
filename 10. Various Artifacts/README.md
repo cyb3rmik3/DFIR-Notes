@@ -1,6 +1,6 @@
 # ToC
 
-- [JA3 Fingerprinting](#cucumber)
+- [JA3 Fingerprinting](#JA3 Fingerprinting)
 
 ### JA3 Fingerprinting
 
