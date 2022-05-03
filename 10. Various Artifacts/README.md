@@ -1,7 +1,7 @@
 # ToC
 
 - [JA3 Fingerprinting](#JA3-Fingerprinting)
-- [Event Trace Logs](#Event Trace Logs)
+- [Event Trace Logs (.etl)](#Event-Trace-Logs)
 
 ### JA3 Fingerprinting
 
